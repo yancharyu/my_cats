@@ -4,7 +4,12 @@ let's share your cats picture
 
 # DEMO
 
+### Home
+![home](https://user-images.githubusercontent.com/72455851/97124489-a1e8d280-1773-11eb-9a81-4e0ddbb16fb0.png)
 
+### Mypage
+
+![mypage]()
 
 # Features
 
@@ -45,7 +50,7 @@ python demo.py
 
 * 作成者
 * 所属
-* E-mail
+* E-maill
 
 # License
 ライセンスを明示する
