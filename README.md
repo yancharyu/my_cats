@@ -8,8 +8,7 @@ let's share your cats picture
 ![home](https://user-images.githubusercontent.com/72455851/97124489-a1e8d280-1773-11eb-9a81-4e0ddbb16fb0.png)
 
 ### Mypage
-
-![mypage]()
+![mypage](https://user-images.githubusercontent.com/72455851/97124688-67cc0080-1774-11eb-97b8-422ac02fa0c4.png)
 
 # Features
 
