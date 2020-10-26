@@ -10,5 +10,9 @@ let's share your cat pictures
 ### Mypage
 ![mypage](https://user-images.githubusercontent.com/72455851/97124688-67cc0080-1774-11eb-97b8-422ac02fa0c4.png)
 
+# Author
+
+・ yancharyu
+
 # License
 [MIT](https://github.com/yancharyu/my_cats/blob/main/LICENSE.txt)
