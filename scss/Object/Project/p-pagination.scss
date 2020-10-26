@@ -1,0 +1,27 @@
+.p-pagination {
+  margin-top: $space_l;
+  text-align: center;
+  &__list {
+    margin: 0 auto;
+    overflow: hidden;
+    display: inline-block;
+  }
+  &__item {
+    float: left;
+    margin-left: $space_xs;
+    &:first-child {
+      margin-left: 0;
+    }
+    &.isActive {
+      background: #333;
+    }
+    &:focus, &:hover {
+      background: #333;
+    }
+
+  }
+  &__link {
+    padding: $other_space_s $other_space_m;
+    font-size: $font-size_l;
+  }
+}

@@ -1,0 +1,53 @@
+// 文字色や背景色はここで定義している部分とベタ書きしているものもあるのでリファクタ必須
+$font-color_default: #fff;
+$font-color_info: #000;
+$font-color_avatarName: #008000;
+$font-color_error: #f00;
+$font-color_link: #00f;
+$font-color_favos: #a9a9a9;
+$font-color_isFavos: #ff1493;
+$font-color_showMsg: rgba(0, 0, 0, .6);
+$font-color_dragDropArea: rgba(0, 0, 0, .5);
+$background-color_default: #d2b48c;
+$background-color_page: #faf0e6;
+$background-color_input: #f5f5f5;
+$background-color_showMsg: rgba(135, 206, 250, .6);
+
+
+
+$site-width: 90%;
+
+
+$font-size_default: 1.6rem;  // 16px;
+$font-size_bold: 1.8rem;     // 18px
+$font-size_xs: 0.8rem;       // 8px
+$font-size_s: 1.2rem;        // 12px
+$font-size_m: 1.4rem;        // 14px
+$font-size_l: 2rem;          // 20px
+$font-size_xl: 2.4rem;       // 24px
+$font-size_xxl: 3.2rem;      // 32px
+$font-size_3xl: 4rem;        // 40px
+$font-size_hero: 5.6rem;     // 56px
+
+// marginやpaddingなどは基本的にこの変数を使う。
+// PCでもスマホでも画面のサイズが８の倍数で作られているから見栄えが良くなる
+$space_xs: 8px;
+$space_s: 16px;
+$space_m: 24px;
+$space_l: 32px;
+$space_xl: 48px;
+$space_xxl: 64px;
+$space_3xl: 80px;
+$space_4xl: 96px;
+
+// 例外的にこっちの変数も使う（基本は使わない）
+$other-space_s: 5px;
+$other-space_m: 10px;
+$other-space_l: 15px;
+$other-space_xl: 20px;
+$other-space_xxl: 30px;
+$other-space_3xl: 40px;
+$other-space_4xl: 40px;
+
+$font-family_default: 'Noto Serif JP', sans-serif;
+

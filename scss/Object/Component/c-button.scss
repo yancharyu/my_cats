@@ -1,0 +1,23 @@
+.c-btn {
+  display: inline-block;
+  width: 30%;
+  max-width: 100%;
+  padding: $other-space_l $space_xs;
+  background: $background-color_input;
+  box-shadow: 0 3% 6% rgba(0,0,0, .16);
+  color: $font-color_info;
+  font-size: $font-size_m;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: .5s;
+  &:focus,
+  &:hover {
+    transition: scale(1.2, 1.2);
+  }
+  &--flRight {
+    float: right;
+  }
+}

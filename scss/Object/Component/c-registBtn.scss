@@ -1,0 +1,17 @@
+.c-registBtn {
+  display: inline-block;
+  position: relative;
+  width: 4%;
+  @include mq () {
+    width: 9%;
+  }
+  height: 5rem;
+  border-radius: 50%;
+  background: #a9a9a9;
+  text-align: center;
+  transition: .3s;
+  &:hover, &:focus {
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+  }
+}

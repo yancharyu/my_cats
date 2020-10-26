@@ -1,0 +1,25 @@
+// panelの幅や高さ等のスタイルはそれぞれのProject内でカスケーティングするものとする
+.p-panel {
+  margin-bottom: $space_xxl;
+  padding: $space_s;
+  background: $background-color_page;
+  box-sizing: border-box;
+  &__head {
+    padding-bottom: $space_s;
+  }
+  &__body {
+    &--padding {
+      margin-top: -$space_s;
+      margin-right: -$space_s;
+      margin-left: -$space_s;
+    }
+  }
+  &__img {
+    width: 100%;
+    height: 250px;
+  }
+  &__footer {
+    padding-top: $space_xs;
+    color: $font-color_info;
+  }
+}

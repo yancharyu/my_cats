@@ -1,0 +1,22 @@
+.p-sort {
+  width: 100%;
+  &__title {
+    color: $font-color_info;
+  }
+  &__menu {
+    margin-top: $space_s;
+    color: $font-color_info;
+    font-size: $font-size_m;
+  }
+  &__btn {
+    width: 50%;
+    float: right;
+    margin-top: $space_s;
+    padding: $other_space_s;
+    border: none;
+    border-radius: 3px;
+    background: $background-color_input;
+    color: $font-color_info;
+    cursor: pointer;
+  }
+}

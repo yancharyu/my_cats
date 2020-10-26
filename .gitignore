@@ -1,0 +1,5 @@
+/vendor
+/yarn.lock
+/php.log
+/composer.lock
+/node_modules

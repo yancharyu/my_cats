@@ -1,0 +1,19 @@
+.p-main {
+  // サイドバーがないときの画面いっぱいに広げるレイアウト
+  width: 65%;
+  @include mq() {
+    width: 90%;
+  }
+  margin: 0 auto;
+  padding: $space_s;
+  box-sizing: border-box;
+  background: $background-color_default;
+  // サイドバーがあるときの分割レイアウト
+  &--withSidebar {
+    float: right;
+    width: 82%;
+    @include mq(md) {
+      width: 100%;
+    }
+  }
+}

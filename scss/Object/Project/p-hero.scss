@@ -1,0 +1,43 @@
+.p-hero {
+  width: 100%;
+  max-width: 100%;
+  padding: -$space_m;
+  opacity: 0.6;
+  background-image: url('../img/home-img3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  // 文字のベースとなるスタイルクラス
+    // 文字の大きさやいろんなどはそれぞれのクラスで定義する
+  &__letter {
+    font-size: $font-size_xl;
+    font-weight: bold;
+    opacity: .8;
+    color: $font-color_info;
+    text-align: center;
+  }
+  &__badge {
+    padding-top: $space_4xl;
+    text-align: center;
+  }
+  &__mainLink {
+    font-size: $font-size_hero;
+  }
+  &__text {
+    margin-top: $space_4xl;
+    padding: $space_m;
+    line-height: $space_xl;
+  }
+  &__linkContainer {
+    text-align: center;
+    margin-top: $space_xxl;
+    color: $font-color_default;
+  }
+  &__link {
+    color: $font-color_default;
+    display: inline-block;
+    opacity: 1;
+    &:hover{
+      transform:scale(1.1, 1.1);
+    }
+  }
+}

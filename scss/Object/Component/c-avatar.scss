@@ -1,0 +1,16 @@
+.c-avatar {
+  width: 100%;
+  &__img {
+    width: 12%;
+    height: 37px;
+    @include mq() {
+      width: 12%;
+    }
+    margin-right: $space_s;
+    border-radius: 50%;
+  }
+  &__name {
+    color: $font-color_avatarName;
+    font-size: $font-size_l;
+  }
+}

@@ -1,0 +1,7 @@
+.l-siteWidth {
+  width: $site-width;
+  @include mq(big) {
+  max-width: 60%;
+}
+  margin: 0 auto;
+}

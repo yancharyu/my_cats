@@ -1,0 +1,28 @@
+.p-form {
+  width: 27%;
+  @include mq (md) {
+    width: 50%;
+  }
+  @include mq() {
+    width: 70%;
+  }
+  margin: 0 auto;
+  padding: $space_l;
+  background: $background-color_default;
+  color: $font-color_info;
+  &__title {
+    font-size: $font-size_xl;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__link {
+    color: $font-color_link;
+    text-decoration: underline;
+  }
+  &--margin {
+    margin-bottom: $space_m;
+  }
+  &--widthWide {
+    width: 65%;
+  }
+}

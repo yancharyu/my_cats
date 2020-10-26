@@ -1,0 +1,30 @@
+.p-uploadRegist {
+  .c-selectBox {
+    @include mq () {
+      width: 23%;
+    }
+    &--widthMax {
+      @include mq () {
+        width: 100%;
+      }
+    }
+  }
+  &__fileInput {
+    @include mq () {
+      display: block;
+    }
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .c-dragDropArea {
+      width: 47%;
+      height: 250px;
+      line-height: 250px;
+      @include mq() {
+        width: 100%;
+        height: 180px;
+        line-height: 180px;
+      }
+    }
+  }
+}

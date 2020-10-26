@@ -1,0 +1,97 @@
+.p-uploadDetail {
+  width: 100%;
+  @include mq() {
+    width: 90%;
+  }
+  margin: 0 auto;
+  &__imgContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: -$space_xs;
+  }
+  &__img {
+    width: 48.5%;
+    @include mq() {
+      width: 100%;
+    }
+    margin-bottom: $space_l;
+    box-sizing: border-box;
+    > img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  &__favosContainer {
+    float: right;
+    margin-right: $space_l;
+    .favosCount {
+      margin-left: $other-space_s;
+    }
+  }
+  &__descContainer {
+    font-size: $font-size_l;
+    &--border {
+      min-height: 100px;
+      padding: $other-space_s;
+      border: 1px solid $font-color_default;
+      font-size: $font-size_m;
+    }
+  }
+  &__commentContainer {
+    margin-top: $space_s;
+    font-size: $font-size_l;
+    .c-avatar{
+      letter-spacing: .01rem;
+      &__img--mini {
+        width: 6%;
+        @include mq () {
+          width: 10%;
+        }
+        height: 30px;
+      }
+    }
+  }
+  &__comment {
+    margin-top: $space_s;
+    font-size: $font-size_m;
+  }
+  &__btn {
+    float: right;
+    border: none;
+    background: $background-color_default;
+    color: $font-color_default;
+    font-size: $font-size_m;
+    cursor: pointer;
+  }
+  &__addComment {
+    .c-btn {
+      float: right;
+      &--mini {
+        width: 15%;
+        padding: $other-space_m $other-space_m;
+        @include mq() {
+          width: 20%;
+        }
+      }
+    }
+  }
+  &__uploader {
+    .c-avatar__img {
+      width: 10%;
+      height: 45px;
+    }
+  }
+  &__delete {
+    .c-btnContainer {
+      margin-top: $space_l;
+      text-align: center;
+    }
+    .c-btn--mini {
+      width: 15%;
+      @include mq() {
+        width: 20%;
+      }
+    }
+  }
+}

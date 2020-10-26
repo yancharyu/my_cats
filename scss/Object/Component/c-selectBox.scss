@@ -1,0 +1,10 @@
+.c-selectBox {
+  width: 10%;
+  height: 38px;
+  border: none;
+  background: $background-color_input;
+  font-size: $font-size_m;
+  &--widthMax {
+    width: 100% !important;
+  }
+}

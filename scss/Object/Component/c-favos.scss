@@ -1,0 +1,8 @@
+.c-favos {
+  color: $font-color_favos;
+  cursor: pointer;
+  &.is-favos {
+    color: $font-color_isFavos;
+    animation: favosPushAnimation .2s ease-out;
+  }
+}

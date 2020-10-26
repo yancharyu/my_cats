@@ -1,0 +1,19 @@
+// メディアクエリのブレイクポイント設定
+// マップ型変数を使うと便利
+$breakpoints: (
+  'sm': 'screen and (max-width: 499px)',
+  'md': 'screen and (max-width: 999px)',
+  'lg': 'screen and (min-width: 1000px)',
+  'big': 'screen and (min-width: 1800px)',
+) !default;
+
+// map-get()の第一引数に変数名、第二引数にマップ型のキーを渡すと、マップ型の値が返る
+// #{}は「インターポーレーション」といって、演算できない箇所、変数使えない箇所でも使えるようにするものcalcなどでよく使う
+// 引数$breakpoint: smは引数が渡されたなかったら自動的にsmが適応されるという書き方（デフォルト値のようなもの）
+@mixin mq($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+

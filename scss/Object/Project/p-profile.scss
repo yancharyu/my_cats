@@ -1,0 +1,68 @@
+.p-profile {
+  width: 100%;
+  &__imgContainer {
+    position: relative;
+    margin-top: -$space_s;
+    margin-left: -$space_s;
+    margin-right: -$space_s;
+  }
+  &__homeImg {
+    width: 100%;
+    height: 250px;
+    @include mq() {
+      height: 130px;
+    }
+  }
+  &__topImg {
+    position: absolute;
+    bottom: -25%;
+    left: 10%;
+    width: 18%;
+    height: 140px;
+    @include mq() {
+      height: 70px;
+    }
+    border: 5px solid $background-color_default;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  &__prof {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  &__profEdit {
+    float: right;
+    margin-top: $space_m;
+
+    margin-right: $space_xs;
+    font-size: $font-size_l;
+  }
+  &__name {
+    margin-left: $space_3xl;
+    margin-top: $space_3xl;
+      @include mq () {
+        margin-left: $space_s;
+        margin-top: $space_xl;
+      }
+    font-size: $font-size_xl;
+  }
+  &__title {
+    margin-bottom: $space_l;
+    font-size: $font-size_xl;
+    text-align: center;
+  }
+  &__uploads {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    // p-panelコンポーネントをカスケーティング
+    .p-panel {
+      width: 48.5%;
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+}

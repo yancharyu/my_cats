@@ -1,0 +1,56 @@
+.c-navMenu {
+  @include mq (lg) {
+    display: none;
+  }
+  display: block;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  padding-top: $space_xl;
+  background: rgba($color: $background-color_default, $alpha: 1);
+  font-size: $font-size_3xl;
+
+  transition: .5s;
+  &__menu {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  &__item {
+    display: block;
+    width: 100%;
+    margin-bottom: $space_3xl;
+    text-align: center;
+  }
+  &__link {
+    font-size: $font-size_3xl;
+    &:focus, &:hover {
+      text-decoration: underline;
+    }
+  }
+  &.is-active {
+    z-index: 1;
+    transition: .5s;
+    right: 0;
+  }
+  // p-sortコンポーネントをカスケーティング
+  .p-sort {
+    &__title {
+      color: $font-color_default;
+      text-align: center;
+    }
+    &__menu {
+      color: $font-color_default;
+      font-size: $font-size_xl;
+    }
+    > form {
+      width: 40%;
+      margin: 0 auto;
+    }
+    .c-selectBox {
+      font-size: $font-size_l;
+    }
+  }
+}

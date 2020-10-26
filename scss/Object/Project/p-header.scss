@@ -1,0 +1,20 @@
+.p-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  line-height: 80px;
+  background: $background-color_default;
+  text-align: center;
+  &__link {
+    font-size: $font-size_xxl;
+    font-weight: bold;
+  }
+  .c-hamburgerMenu {
+    position: fixed;
+    top: 4%;
+    right: 5%;
+    z-index: 3;
+  }
+}

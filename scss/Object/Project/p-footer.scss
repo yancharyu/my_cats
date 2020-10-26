@@ -1,0 +1,11 @@
+.p-footer {
+  text-align: center;
+  &__text {
+    @include mq() {
+      font-size: $font-size_xs;
+    }
+    line-height: 80px;
+    background: $background-color_default;
+    color: $font-color_default;
+  }
+}
